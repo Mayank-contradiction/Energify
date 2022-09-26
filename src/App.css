@@ -1,0 +1,25 @@
+.wrapper video {
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.wrapper .overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background-image: linear-gradient(120deg, rgba(255, 159, 69, 0.4) 50%, transparent 50%);
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    /* linear-gradient(to right, rgba(255, 255, 255, 0.9) 50%, transparent 50%); */
+    min-width: 100%; 
+    min-height: 100%;
+}
